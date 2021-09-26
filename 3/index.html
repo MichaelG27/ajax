@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <style>
+    .items {
+      width: 700px;
+      margin: 0 auto;
+      margin-top: 200px;
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-column-gap: 50px;
+      grid-row-gap: 50px;
+    }
+    .item {
+      width: 200px;
+      height: 300px;
+      background-color: grey;
+      font-family: arial;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>AJAX | задача</h1>
+  <p>выполнил М. Голяков ПКС-220</p>
+  <br>
+  <p>Текст задачи: </p>
+  <p>Дана страница с товарами product.html. На ней по загрузке расположено 12 товаров по 3 в ряд. Сделайте так, чтобы при прокрутке страницы до самого низа аяксом подгружалось еще 12 товаров. Товары расположены на страницах ajax1.html, alax2.html и так далее. Как только страницы с товаром закончатся - страница product.html должна выдать сообщение об этом.</p>
+  <br>
+
+  <div class="items">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="item">10</div>
+    <div class="item">11</div>
+    <div class="item">12</div>
+  </div>
+
+  
+<script src="index.js"></script>	
+
+
+</body>
+</html>

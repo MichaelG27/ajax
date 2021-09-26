@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <style>
+    .items {
+      width: 700px;
+      margin: 0 auto;
+      margin-top: 200px;
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-column-gap: 50px;
+      grid-row-gap: 50px;
+    }
+    .item {
+      width: 200px;
+      height: 300px;
+      background-color: grey;
+      font-family: arial;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>AJAX | задача</h1>
+  <p>выполнил М. Голяков ПКС-220</p>
+  <br>
+  <p>Текст задачи: </p>
+  <p>Дана страница index.html. В ней есть блок #content и кнопка вне этого блока. Дана также страница ajax.json, в ней хранится массив пользователей в формате JSON.
+
+    Сделайте так, чтобы по нажатию на кнопку в #content появился список пользователей из ajax.json в виде списка ul - каждый пользователь в своем li</p>
+  <br>
+
+  <div id="content">
+    <ul id="ul"></ul>
+  </div>
+  <input type="button" value="кнопка" id="btn">
+  
+<script src="index.js"></script>	
+
+
+</body>
+</html>
